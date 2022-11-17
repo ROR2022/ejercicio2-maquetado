@@ -4,11 +4,12 @@
   box-sizing: border-box;
 }
 
+header {
+  position: relative;
+  z-index: 2000;
+}
+
 @media only screen and (max-width: 600px) {
-  header {
-    position: relative;
-    z-index: 2000;
-  }
   .imgG {
     width: 100vw;
     height: 70vh;
@@ -27,6 +28,28 @@
     height: 85vh;
     top: -20vh;
     left: 5vw;
+    z-index: -500;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .imgG {
+    width: 50vw;
+    height: 100vh;
+  }
+  .img1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0vh;
+    left: 0vw;
+    z-index: -1000;
+  }
+  .img2 {
+    position: absolute;
+    width: 70vw;
+    height: 140vh;
+    top: -20vh;
+    left: 0vw;
     z-index: -500;
   }
 }/*# sourceMappingURL=style.css.map */
