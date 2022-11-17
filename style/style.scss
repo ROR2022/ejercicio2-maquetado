@@ -10,10 +10,10 @@
 @media only screen and(max-width:600px){
 
   header{
-    nav{
+    
       position: relative;
       z-index: 2000;
-    }
+    
   }
 
   .imgG{
@@ -36,7 +36,7 @@
     height: 85vh;
     top: -20vh;
     left: 5vw;
-    z-index: 1000;
+    z-index: -500;
   }
 }
 
