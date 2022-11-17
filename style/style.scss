@@ -1,9 +1,45 @@
-
-
-
-
-.img2{
-  z-index: 1000;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+
+
+
+@media only screen and(max-width:600px){
+
+  header{
+    nav{
+      position: relative;
+      z-index: 2000;
+    }
+  }
+
+  .imgG{
+    width: 100vw;
+    height: 70vh;
+  }
+
+  .img1{
+    position: absolute;
+    width: 200vw;
+    height: 100vh;
+    top: -30vh;
+    left: -30vw;
+    z-index: -1000;
+  }
+  
+  .img2{
+    position: absolute;
+    width: 90vw;
+    height: 85vh;
+    top: -20vh;
+    left: 5vw;
+    z-index: 1000;
+  }
+}
+
+
 
 
