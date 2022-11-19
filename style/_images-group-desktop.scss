@@ -1,0 +1,22 @@
+.imgG{
+  width: 50vw;
+  height: 100vh;
+}
+
+.img1{
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0vh;
+  left: 0vw;
+  z-index: -1000;
+}
+
+.img2{
+  position: absolute;
+  width: 70vw;
+  height: 140vh;
+  top: -20vh;
+  left: 0vw;
+  z-index: -500;
+}
